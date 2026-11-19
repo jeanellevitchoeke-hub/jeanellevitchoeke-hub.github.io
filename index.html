@@ -58,6 +58,14 @@
       border: 1px solid #334155; transition: transform 0.2s, border-color 0.2s;
     }
     .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+    .card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      border: 1px solid #334155;
+    }
     .card .icon { font-size: 2.4rem; margin-bottom: 10px; }
     .card h3 { margin-bottom: 8px; }
     .card p { color: var(--muted); font-size: 0.97rem; }
@@ -105,23 +113,26 @@
     <div class="grid">
 
       <article class="card">
+        <img src="feux.jpg" alt="Projet feux tricolores" onerror="this.style.display='none'">
         <div class="icon">🚦</div>
         <h3>Feux tricolores</h3>
-        <p>Système de feux de circulation (rouge, orange, vert) qui gère l'alternance et la durée des feux, comme à un carrefour.</p>
+        <p>Maquette d'un carrefour avec trois feux de circulation et des servomoteurs pour les barrières, qui gèrent l'alternance des feux comme sur une vraie route.</p>
         <span class="tag">Électronique</span>
       </article>
 
       <article class="card">
+        <img src="aspirateur.jpg" alt="Projet aspirateur" onerror="this.style.display='none'">
         <div class="icon">🧹</div>
         <h3>Aspirateur</h3>
-        <p>Conception d'un aspirateur électronique : montage du circuit, alimentation et contrôle du moteur d'aspiration.</p>
+        <p>Robot aspirateur mobile : boîtier imprimé en 3D, châssis à 4 roues, pilote de moteurs L298N, batteries 18650 et ventilateur d'aspiration avec filtre.</p>
         <span class="tag">Électronique</span>
       </article>
 
       <article class="card">
+        <img src="caisse.jpg" alt="Projet caisse automatique" onerror="this.style.display='none'">
         <div class="icon">🛒</div>
         <h3>Caisse automatique</h3>
-        <p>Projet de caisse automatique utilisant le machine learning pour reconnaître les articles et faciliter le passage en caisse.</p>
+        <p>Panier imprimé en 3D équipé d'un lecteur RFID RC522 et d'un ESP32 pour identifier les articles automatiquement, avec le machine learning pour faciliter le passage en caisse.</p>
         <span class="tag ml">Machine Learning</span>
       </article>
 
@@ -143,8 +154,10 @@
     <h2>Contact</h2>
     <p style="color: var(--muted); margin-bottom: 18px;">Un projet, une question, une collaboration ? Écris-moi.</p>
     <div class="contact-links">
-      <a class="btn" href="mailto:ton@email.com">✉️ Email</a>
-      <a class="btn outline" href="https://github.com/ton-pseudo">GitHub</a>
+      <a class="btn" href="mailto:jeanellevitchoeke@gmail.com">✉️ jeanellevitchoeke@gmail.com</a>
+      <a class="btn" href="tel:+2290159921701">📞 01 59 92 17 01</a>
+      <a class="btn outline" href="https://wa.me/2290159921701">💬 WhatsApp</a>
+      <a class="btn outline" href="https://github.com/jeanellevitchoeke-hub">GitHub</a>
     </div>
   </section>
 
